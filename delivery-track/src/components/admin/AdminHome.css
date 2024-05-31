@@ -1,0 +1,92 @@
+.admin-container {
+    margin: 20px auto;
+    max-width: 2500px;
+    padding: 80px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  .admin-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .admin-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .admin-button:hover {
+    background-color: #45a049;
+  }
+
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .admin-table th, .admin-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .admin-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .admin-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .admin-table tr:hover {
+    background-color: #ddd;
+  }
+
+  .admin-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  .admin-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+  .admin-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .admin-close:hover,
+  .admin-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

@@ -1,0 +1,3 @@
+[submodule "delivery-maker"]
+	path = delivery-maker
+	url = ./
